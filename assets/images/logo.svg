@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="100%" height="100%" fill="none">
+  <!-- LR Bakery Monogram Emblem matching Task 2 final logo design -->
+  <defs>
+    <linearGradient id="goldBrown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8C532B" />
+      <stop offset="50%" stop-color="#6E3D19" />
+      <stop offset="100%" stop-color="#4A260F" />
+    </linearGradient>
+    <linearGradient id="wheatGold" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#A56737" />
+      <stop offset="100%" stop-color="#D9A05B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Flowing background flourishes -->
+  <path d="M 90,240 C 140,285 240,270 280,210 C 315,160 300,90 220,105 C 160,115 130,170 180,200 C 230,225 285,185 320,220" 
+        stroke="#D4BA99" stroke-width="1.8" fill="none" opacity="0.65" />
+  
+  <!-- Loaf / Croissant contour in lower curve -->
+  <g transform="translate(95, 175) scale(0.65)">
+    <path d="M 20,45 C 30,20 65,10 95,20 C 120,30 135,55 125,75 C 110,95 60,95 30,85 C 15,80 10,65 20,45 Z" 
+          fill="none" stroke="#8C532B" stroke-width="2.5" />
+    <path d="M 45,25 C 55,45 65,65 65,85" stroke="#8C532B" stroke-width="2" stroke-linecap="round" />
+    <path d="M 75,20 C 85,45 95,65 95,80" stroke="#8C532B" stroke-width="2" stroke-linecap="round" />
+    <path d="M 100,28 C 110,48 115,62 115,75" stroke="#8C532B" stroke-width="1.8" stroke-linecap="round" />
+  </g>
+
+  <!-- Botanical Wheat Stalk -->
+  <g transform="translate(230, 40) rotate(15)" stroke="url(#wheatGold)" fill="url(#wheatGold)">
+    <!-- Stem -->
+    <path d="M 10,135 Q 22,70 45,15" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <!-- Wheat grains right -->
+    <path d="M 45,15 C 52,18 55,26 48,32 C 43,26 42,20 45,15 Z" />
+    <path d="M 40,32 C 50,34 54,44 47,50 C 40,45 38,38 40,32 Z" />
+    <path d="M 33,52 C 45,55 48,65 40,71 C 34,66 32,58 33,52 Z" />
+    <path d="M 26,73 C 38,76 40,86 32,92 C 26,87 24,80 26,73 Z" />
+    <path d="M 19,95 C 29,98 31,108 23,114 C 18,109 17,102 19,95 Z" />
+    <!-- Wheat grains left -->
+    <path d="M 42,22 C 34,20 29,28 35,35 C 41,31 42,25 42,22 Z" />
+    <path d="M 36,40 C 27,39 22,48 29,55 C 35,50 36,44 36,40 Z" />
+    <path d="M 29,60 C 19,60 15,70 21,77 C 27,72 28,65 29,60 Z" />
+    <path d="M 22,81 C 12,82 8,92 14,99 C 20,94 21,87 22,81 Z" />
+    <!-- Awns / wisps -->
+    <path d="M 45,15 L 58,2" stroke-width="1.2" fill="none" />
+    <path d="M 48,30 L 65,22" stroke-width="1.2" fill="none" />
+    <path d="M 35,22 L 20,10" stroke-width="1.2" fill="none" />
+    <path d="M 29,40 L 12,30" stroke-width="1.2" fill="none" />
+  </g>
+
+  <!-- Monogram Letter L (Serif Calligraphy) -->
+  <path d="M 95,95 L 140,95 L 140,105 L 122,105 L 122,198 C 122,215 130,222 150,222 L 175,222 L 175,235 L 95,235 L 95,222 L 108,222 C 114,222 115,217 115,200 L 115,105 L 95,105 Z" 
+        fill="url(#goldBrown)" />
+
+  <!-- Monogram Letter R (Intertwined Serif) -->
+  <path d="M 165,115 L 205,115 C 235,115 250,128 250,148 C 250,165 238,178 218,182 C 235,198 255,220 270,242 L 285,242 L 285,248 L 260,248 C 242,225 222,198 208,186 L 188,186 L 188,235 L 205,235 L 205,245 L 152,245 L 152,235 L 170,235 L 170,127 L 152,127 L 152,115 Z 
+           M 188,127 L 188,175 L 205,175 C 224,175 233,165 233,150 C 233,135 224,127 205,127 Z" 
+        fill="url(#goldBrown)" />
+</svg>
