@@ -4,14 +4,6 @@
 // Student Project: Loren / Zihao Ye (ID: 270845446)
 // Task 4: Website Design
 
-// Let PHP built-in web server serve static files directly (CSS, JS, images), but NOT PHP scripts
-if (php_sapi_name() === 'cli-server') {
-    $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-    if ($path !== '/' && !str_ends_with($path, '.php') && file_exists(__DIR__ . $path)) {
-        return false;
-    }
-}
-
 require_once __DIR__ . '/data/products.php';
 
 // Allowed routes
