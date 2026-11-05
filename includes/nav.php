@@ -6,7 +6,7 @@ $currentPage = $currentPage ?? 'home';
 <header class="site-header">
   <div class="container nav-container">
     <!-- Brand Monogram & Title with Loren's Original Logo -->
-    <a href="index.php?page=home" class="brand-link" aria-label="LR Bakery Home">
+    <a href="?page=home" class="brand-link" aria-label="LR Bakery Home">
       <img src="assets/images/logo.png" alt="LR Bakery Monogram Logo" class="brand-logo-img">
       <div class="brand-titles">
         <span class="brand-title">LR Bakery</span>
@@ -18,19 +18,19 @@ $currentPage = $currentPage ?? 'home';
     <nav>
       <ul class="nav-menu" id="navMenu">
         <li>
-          <a href="index.php?page=home" class="nav-link <?= $currentPage === 'home' ? 'active' : '' ?>">Home</a>
+          <a href="?page=home" class="nav-link <?= $currentPage === 'home' ? 'active' : '' ?>">Home</a>
         </li>
         <li>
-          <a href="index.php?page=menu" class="nav-link <?= $currentPage === 'menu' ? 'active' : '' ?>">Menu &amp; Bakes</a>
+          <a href="?page=menu" class="nav-link <?= $currentPage === 'menu' ? 'active' : '' ?>">Menu &amp; Bakes</a>
         </li>
         <li>
-          <a href="index.php?page=story" class="nav-link <?= $currentPage === 'story' ? 'active' : '' ?>">Our Story</a>
+          <a href="?page=story" class="nav-link <?= $currentPage === 'story' ? 'active' : '' ?>">Our Story</a>
         </li>
         <li>
-          <a href="index.php?page=packaging" class="nav-link <?= $currentPage === 'packaging' ? 'active' : '' ?>">Packaging Design</a>
+          <a href="?page=packaging" class="nav-link <?= $currentPage === 'packaging' ? 'active' : '' ?>">Packaging Design</a>
         </li>
         <li>
-          <a href="index.php?page=contact" class="nav-link <?= $currentPage === 'contact' ? 'active' : '' ?>">Visit &amp; Pre-Order</a>
+          <a href="?page=contact" class="nav-link <?= $currentPage === 'contact' ? 'active' : '' ?>">Visit &amp; Pre-Order</a>
         </li>
       </ul>
     </nav>
@@ -64,7 +64,7 @@ $currentPage = $currentPage ?? 'home';
       <span>Estimated Total</span>
       <span id="cartTotal">$0.00</span>
     </div>
-    <a href="index.php?page=contact" class="btn btn-primary" id="cartCheckoutBtn" style="width: 100%;">
+    <a href="?page=contact" class="btn btn-primary" id="cartCheckoutBtn" style="width: 100%;">
       Proceed to Pre-Order &rarr;
     </a>
   </div>

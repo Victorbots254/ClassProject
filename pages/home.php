@@ -18,10 +18,10 @@
       </p>
       
       <div class="hero-ctas">
-        <a href="index.php?page=menu" class="btn btn-primary">
+        <a href="?page=menu" class="btn btn-primary">
           Explore Daily Bakes &rarr;
         </a>
-        <a href="index.php?page=packaging" class="btn btn-outline">
+        <a href="?page=packaging" class="btn btn-outline">
           View Packaging Design (Task 3)
         </a>
       </div>
@@ -107,7 +107,7 @@
         From our signature 36-hour country loaves with crackling blistered crusts to our layered Normandy butter croissants, our mission is to bring warm, grounded nourishment back into daily life.
       </p>
       <div style="margin-top: 1.75rem;">
-        <a href="index.php?page=story" class="btn btn-outline">Read the Full Brand Story &rarr;</a>
+        <a href="?page=story" class="btn btn-outline">Read the Full Brand Story &rarr;</a>
       </div>
     </div>
 
@@ -199,7 +199,7 @@
     </div>
 
     <div style="text-align: center; margin-top: 3.5rem;">
-      <a href="index.php?page=menu" class="btn btn-outline">
+      <a href="?page=menu" class="btn btn-outline">
         View Entire Daily Menu (<?= count($products) ?> items) &rarr;
       </a>
     </div>

@@ -25,11 +25,11 @@
         <div class="footer-col">
           <h4>Explore</h4>
           <ul class="footer-links">
-            <li><a href="index.php?page=home">Home</a></li>
-            <li><a href="index.php?page=menu">Daily Bakery Menu</a></li>
-            <li><a href="index.php?page=story">Our Sourdough Philosophy</a></li>
-            <li><a href="index.php?page=packaging">Packaging Study (Task 3)</a></li>
-            <li><a href="index.php?page=contact">Pre-Order Inquiries</a></li>
+            <li><a href="?page=home">Home</a></li>
+            <li><a href="?page=menu">Daily Bakery Menu</a></li>
+            <li><a href="?page=story">Our Sourdough Philosophy</a></li>
+            <li><a href="?page=packaging">Packaging Study (Task 3)</a></li>
+            <li><a href="?page=contact">Pre-Order Inquiries</a></li>
           </ul>
         </div>
 
